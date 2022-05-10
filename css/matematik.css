@@ -1,0 +1,38 @@
+#konu{
+    font-size: xx-large;
+    padding: 5rem;
+    color: rgb(16, 32, 8);
+}
+#yanBaslik{
+    margin: 5rem 1rem 0rem;
+    color: rgb(162, 13, 13);
+}
+#ortalama{
+    display: flex;
+    justify-content: center;
+}
+img{
+    margin-top: 2.5rem;
+}
+#vurgu{
+    font-weight: bolder;
+    color: rgb(58, 58, 2);
+    padding: 1rem;
+}
+#kirmizi{
+    color: rgb(193, 6, 6);
+}
+#ornek{
+    color: rgb(3, 3, 189);
+    margin-bottom: 1rem;
+    font-size: larger;
+    font-weight: 400;
+}
+
+#yan__yanaContainer{
+    display: flex;
+}
+#yan__yana{
+    flex-direction: column;
+    justify-content: space-between;
+}

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Online Sınav Uygulaması</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="kapsayici" id="sinav">
+      <div class="time">
+        <h1 class="dk__sn"><span id="dakika">00</span>:<span id="saniye">00</span></h1>
+        <button id="baslat">Başlat</button>
+      </div>
+        <div class="soruGoster">
+          <h2 id="soru">Soru buraya gelecek</h2>
+          <!-- <input type="text" name="klassik" id="klassik" class="klassik"> -->
+          <ul>
+            <li>
+              <input type="radio" name="secenek" id="secenekA" class="secenek">
+              <label for="secenekA" id="aAciklama">A Şıkkı</label>
+            </li>
+  
+            <li>
+              <input type="radio" name="secenek" id="secenekB" class="secenek">
+              <label for="secenekB" id="bAciklama">B Şıkkı</label>
+            </li>
+  
+            <li>
+              <input type="radio" name="secenek" id="secenekC" class="secenek">
+              <label for="secenekC" id="cAciklama">C Şıkkı</label>
+            </li>
+  
+            <li>
+              <input type="radio" name="secenek" id="secenekD" class="secenek">
+              <label for="secenekD" id="dAciklama">D Şıkkı</label>
+            </li>
+          </ul>
+        </div>
+        
+        <button id="geri">geri</button>
+        <button id="ileri">ileri</button>
+        <button id="tamamla">Cevabı Gönder</button>
+      </div>
+
+    <script src="timer.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
